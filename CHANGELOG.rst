@@ -23,6 +23,11 @@ This document describes changes between each past release.
 - ``accounts`` plugin: fix exception on authentication. (#1224)
 - Fix crash with JSONSchema validation of unknown required properties (fixes #1243)
 
+**Internal changes**
+
+- Make memory storage consistent with PostgreSQL with regard to bytes (#1237)
+- Some minor cleanups about the use of kinto.readonly (#1241)
+
 
 7.0.1 (2017-05-17)
 ------------------
